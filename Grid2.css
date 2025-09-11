@@ -1,0 +1,95 @@
+.Grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+}
+.Grid div {
+    width: 200px;
+}
+#Grid1{
+    background-color: red;
+    height: 100px;
+    padding-right: 380px;
+    outline: auto;
+}
+#Grid2{
+    background-color: red;
+    height: 100px;
+    margin-left: 1px;
+    padding-right: 380px;
+    outline: auto;
+}
+#Grid3{
+    background-color: red;
+    height: 100px;
+    margin-left: 1px;
+    padding-right: 380px;
+    outline: auto;
+}
+#Grid4{
+    background-color: red;
+    height: 100px;
+    margin-left: 1px;
+    padding-right: 380px;
+    outline: auto;
+}
+#Grid5{
+    background-color: red;
+    height: 100px;
+    margin-left: 1px;
+    padding-right: 380px;
+    outline: auto;
+}
+.Grid2 {
+     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 5px;
+}
+.Grid2 div {
+    width: 200px;
+}
+#Grid21{
+    grid-row: 1;
+    grid-column: 1 / span 3;
+    background-color: green;
+    height: 100px;
+    padding-right: 1550px;
+    outline: auto;
+}
+#Grid22{
+    grid-row: 2 / span 2;
+    grid-column: 1;
+    background-color: green;
+    height: 400px;
+    margin-left: 1px;
+    padding-right: 380px;
+    outline: auto;
+}
+#Grid23{
+    grid-row: 2;
+    grid-column: 2;
+    background-color: green;
+    height: 100px;
+    margin-left: 1px;
+    padding-right: 380px;
+    outline: auto;
+}
+#Grid24{
+    grid-row: 2;
+    grid-column: 3;
+    background-color: green;
+    height: 100px;
+    margin-left: 1px;
+    padding-right: 380px;
+    outline: auto;
+}
+#Grid25{
+    grid-row: 3;
+    grid-column: 2;
+    background-color: green;
+    height: 100px;
+    margin-left: 1px;
+    padding-right: 380px;
+    margin-bottom: 200px;
+    outline: auto;
+}

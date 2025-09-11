@@ -1,0 +1,81 @@
+.Grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.Grid div {
+    width: 200px;
+}
+#Grid1{
+    background-color: lightgreen;
+    height: 250px;
+    margin-left: 50px;
+    outline: auto;
+}
+#Grid2{
+    background-color: lightgreen;
+    height: 250px;
+    margin-left: 150px;
+    outline: auto;
+}
+#Grid3{
+    background-color: lightgreen;
+    height: 250px;
+    margin-left: 150px;
+    outline: auto;
+}
+#Grid4{
+    background-color: lightgreen;
+    height: 250px;
+    margin-left: 150px;
+    outline: auto;
+}
+#Grid5{
+    background-color: lightgreen;
+    height: 250px;
+    margin-left: 150px;
+    outline: auto;
+}
+.Grid2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.Grid2 div {
+    width: 200px;
+    margin-top: 1px;
+}
+#Grid21{
+    background-color: red;
+    height: 100px;
+    padding-right: 50px;
+    outline: auto;
+}
+#Grid22{
+    background-color: red;
+    height: 100px;
+    margin-left: 1px;
+    padding-right: 450px;
+    outline: auto;
+}
+#Grid23{
+    background-color: red;
+    height: 100px;
+    margin-left: 1px;
+    padding-right: 50px;
+    outline: auto;
+}
+#Grid24{
+    background-color: red;
+    height: 100px;
+    margin-left: 1px;
+    padding-right: 50px;
+    outline: auto;
+}
+#Grid25{
+    background-color: red;
+    height: 100px;
+    margin-left: 1px;
+    padding-right: 50px;
+    outline: auto;
+}
